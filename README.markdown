@@ -16,6 +16,18 @@ Right now I'm leaning toward Ruby + Gosu + GGLib and passing generated text file
 <dt>SDL w/ some kind of SDL GUI lib</dt>
 <dt>SDL w/ scratch-built interface stuff</dt>
 <dt>wxWindows (not likely)</dt>
-<dt>Java</dt>
 </dl></dd>
+<dt>Java</dt>
 </dl>
+
+I'm probably going with a "tabbed" interface. Outside the tabbed area will be a list of commands and the controls for manipulating the list (add, remove, clone, reorder, etc.). Things like context menus and drag/drop will depend on the environment/toolkit used.
+
+Command List
+------------
+
+Possible productivity enhancements for the list of commands include:
+
+* Groups for organization
+* Automatic, intelligent grouping by VSU channel
+* Saving standard sequences in a "library"
+* SFXr-like generation of pleasing sound-fx
